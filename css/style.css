@@ -17,6 +17,10 @@ html {
   display: table;
 }
 
+img {
+    width: 100%;
+}
+
 /* COMMON */
 .t-d {
     text-decoration: none;
@@ -28,7 +32,7 @@ html {
     font-size: 15px;
     color: white;
     font-weight: bold;
-    padding: 0.7em 1.7em;
+    padding: 0.7em 1.2em;
 }
 
  a:hover.btn-hover{
@@ -46,7 +50,7 @@ html {
     height: 10vh;
     background-color: #FFFFFF;
     position: fixed;
-    padding: 1.5em 2em 1em 1.5em;
+    padding: 2.5em 2em 1em 1.5em;
     z-index: 1; 
 }
 
@@ -75,10 +79,10 @@ html {
 }
 
 .start-btn-blue {
-    margin-left: 5px;
+    margin: 25px;
 }
 
-/* MAIN */
+/* HEADER */
 
 /* BANNER */
 .banner-header  {
@@ -91,7 +95,7 @@ html {
     width: 80%;
     height: 865px;
     background-color: #B4D0E7;
-    margin: auto;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -109,32 +113,37 @@ html {
 .banner-text{
     padding-top: 4.5em;
     font-size: 1.1em;
+    position: relative;
 }
 
 .btn-banner {
     position: absolute;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .arrow-banner{
-    
     font-size: 40px;
     margin-top: 1.5rem;
     color: black;
+}
+
+ #arrow-a{
+    color: inherit;
 }
 
 .banner-img > img{
     width: 65%;
     height: 65%;
     position: absolute;
-    bottom: -115px;
+    bottom: -135px;
     right: 0%;
 }
 
 .annulla-p {
-    margin-top: 85px;
+    margin-top: 50px;
 }
 
+/* MAIN */
 
 /* PLAN SECTION */
 .plan-section-container {
@@ -142,13 +151,29 @@ html {
     width: 70%;
     background-color: #FFFFFF;
     margin: auto;
+    margin-bottom: 4em;
 }
 
 .plan-title > h2 {
-        padding-top: 4.5em;
-        font-size: 55px;
+        padding-top: 5.5em;
+        font-size: 3em;
         font-weight:bold;
 }
+
+ .month-year-checkbox{
+    margin-top: 3em;
+    margin-bottom: 2em;
+    font-size: 16px;
+}
+
+.month-year-checkbox > label{
+    margin-right: 1em;
+}
+
+.month-year-checkbox > input{
+    vertical-align: middle;
+}
+
 
 /* PARTNER-DROPBOX SECTION */
 .partner-section {
