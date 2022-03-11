@@ -151,18 +151,20 @@ img {
     width: 70%;
     background-color: #FFFFFF;
     margin: auto;
-    margin-bottom: 4em;
+    margin-right: 200px;
 }
 
 .plan-title > h2 {
-        padding-top: 5.5em;
-        font-size: 3em;
-        font-weight:bold;
+    padding-top: 5.5em;
+    font-size: 3em;
+    font-weight:bold;
 }
+
+/* PLAN MONTH-YEAR SECTION */
 
  .month-year-checkbox{
     margin-top: 3em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     font-size: 16px;
 }
 
@@ -172,6 +174,27 @@ img {
 
 .month-year-checkbox > input{
     vertical-align: middle;
+}
+
+/* OFFER TABLE SECTION */
+
+.col{
+    margin-top: 0.5em;
+    border: 2px solid blue;
+    background-color: red;
+    height: 85%;
+    width: calc((90% / 3) - 30px);
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.col-offer-professional {
+    margin-left: 0;
+}
+
+.col-offer-advanced {
+    margin-right: 0;
 }
 
 
