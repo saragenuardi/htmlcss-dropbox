@@ -22,6 +22,10 @@ img {
 }
 
 /* COMMON */
+.float-l {
+    float: left;
+}
+
 .t-d {
     text-decoration: none;
 }
@@ -186,6 +190,27 @@ img {
     height: 1000px;
 }
 
+.col-bottom {
+    width: 84%;
+    margin-left:30px;
+    margin-top: 50px;
+}
+.plan-category-bottom {
+    border: 1px solid grey;
+    border-bottom: none;
+    text-align: center;
+    padding: 1em;
+}
+
+.col-bot-text {
+    border: 1px solid grey;
+    padding: 2em;
+}
+
+.margin-bottom {
+    margin-bottom: 1.3em;
+}
+
 .col .title {
     text-align: center;
     line-height: 40px;
@@ -203,6 +228,10 @@ img {
     color: white;
     border: 0;
     margin-bottom: 20px;
+}
+
+.btn-col-bot-right {
+    float: right;
 }
 
 .col hr {
@@ -249,6 +278,10 @@ img {
 .text-offer {
     font-size: 0.9em;
 }
+ 
+.f-small {
+    font-size: 0.8em;
+}
 
 .cadence {
     color: #8A96A0;
@@ -256,18 +289,50 @@ img {
 
 /* PARTNER-DROPBOX SECTION */
 .partner-section {
-    width: 70%;
-    height: 400px;
+    width: 60%;
     margin: auto;
-    margin-top: 50px;
-    background-color: pink; 
+    margin: auto;
+    margin-top: 100px;  
+}
+
+.partner {
+    margin: 8em auto;
+    width: 100%;
+}
+
+.partner-img {
+    width: 50%;
+}
+
+.partner-text {
+    width: 50%;
+    padding: 3em;
+}
+
+.partner-text h3 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.partner-text p {
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+.btn-partner {
+    border: 1px solid black;
+    padding: .5em .8em;
+    color: inherit;
+}
+
+.finds-black {
+    color: black;
 }
 
 /* OPERATIONS DROPBOX-BUSINESS SECTION */
 .operations-business-section {
-    position: relative;
-    width: 70%;
-    height: 150vh;
+    width: 60%;
+    height: 1200px;
     margin: auto;
     background-color: powderblue; 
 }
