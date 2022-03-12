@@ -47,7 +47,7 @@ img {
 /* MENU */
 .menu {
     width: 100%;
-    height: 10vh;
+    height: 100px;
     background-color: #FFFFFF;
     position: fixed;
     padding: 2.5em 2em 1em 1.5em;
@@ -93,7 +93,7 @@ img {
 
 .banner-section-container {
     width: 80%;
-    height: 865px;
+    height: 90vh;
     background-color: #B4D0E7;
     margin: 0 auto;
     position: relative;
@@ -147,7 +147,6 @@ img {
 
 /* PLAN SECTION */
 .plan-section-container {
-    height: 180vh;
     width: 70%;
     background-color: #FFFFFF;
     margin: auto;
@@ -178,32 +177,89 @@ img {
 
 /* OFFER TABLE SECTION */
 
-.col{
-    margin-top: 0.5em;
-    border: 2px solid blue;
-    background-color: red;
-    height: 85%;
-    width: calc((90% / 3) - 30px);
-    margin: 0px 20px;
-    display: inline-block;
-    position: relative;
+
+.col {
+    float: left;
+    width: calc(100% / 3 - 90px);
+    border: 2px solid lightgray;
+    margin-left: 30px;
+    height: 1000px;
 }
 
-.col-offer-professional {
-    margin-left: 0;
+.col .title {
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid;
 }
 
-.col-offer-advanced {
-    margin-right: 0;
+.col .padding {
+    padding: 30px;
 }
 
+.col button {
+    width: 100%;
+    background-color: blue;
+    line-height: 30px;
+    color: white;
+    border: 0;
+    margin-bottom: 20px;
+}
+
+.col hr {
+    width: 20%;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-45 {
+    margin-bottom: 45px;
+}
+
+.check-blue {
+    color: blue;
+}
+
+.buy-now {
+    color: blue;
+}
+
+.buy-now-blue {
+    color:inherit;
+}
+
+.or-span {
+    color: black;
+}
+
+.offer-type {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.price-text {
+    font-size: 1em;
+}
+
+.text-offer {
+    font-size: 0.9em;
+}
+
+.cadence {
+    color: #8A96A0;
+}
 
 /* PARTNER-DROPBOX SECTION */
 .partner-section {
-    position: relative;
     width: 70%;
-    height: 40vh;
+    height: 400px;
     margin: auto;
+    margin-top: 50px;
     background-color: pink; 
 }
 

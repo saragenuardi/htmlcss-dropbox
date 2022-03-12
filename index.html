@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropbox</title>
-    <!-- icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- font -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-    <!-- style -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    
-    <!-- nav -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dropbox</title>
+        <!-- icons -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- font -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet" />
+        <!-- style -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- nav -->
         <nav class="menu clearfix">
             <!-- menu left -->
             <div class="menu-left">
                 <div class="dropbox-logo">
-                    <img src="./img/logo-small.png" alt="logo dropbox">
+                    <img src="./img/logo-small.png" alt="logo dropbox" />
                 </div>
                 <div class="menu-text menu-left clearfix">
                     <a class="t-d" href="">Perche Dropbox?</a>
@@ -31,9 +33,7 @@
                 </div>
             </div>
             <!-- /menu left -->
-
             <!-- menu right -->
-
             <div class="menu-right">
                 <div class="menu-btn">
                     <a class="btn-blue start-btn-blue btn-hover" href="">Inizia</a>
@@ -45,23 +45,20 @@
                 </div>
             </div>
             <!-- /menu right -->
-
         </nav>
-    
-    <!-- /nav -->
-
+        <!-- /nav -->
         <!-- header -->
-        
-            <!-- banner -->
-
+        <!-- banner -->
         <header class="banner-header">
             <div class="banner-section-container">
                 <div class="banner-title">
                     <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 </div>
-
                 <div class="banner-text text">
-                    <p>Finalmente tutti i tuoi strumenti. contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business e' piu' di uno spazio di archiviazione sicuro: e' un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente. </p>
+                    <p>
+                        Finalmente tutti i tuoi strumenti. contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business e' piu' di uno spazio di archiviazione sicuro: e' un modo intelligente e integrato per ottimizzare il
+                        flusso di lavoro esistente.
+                    </p>
                     <div class="btn-banner">
                         <a class="btn-blue btn-blue-banner btn-hover" href="">Inizia la tua prova gratuita</a>
                     </div>
@@ -73,104 +70,134 @@
                     <a id="arrow-a" href=""><i class="fas fa-arrow-down"></i></a>
                 </div>
                 <div class="banner-img">
-                    <img src="img/jumbo.png" alt="proposta per il cliente jumbo">
+                    <img src="img/jumbo.png" alt="proposta per il cliente jumbo" />
                 </div>
             </div>
-                
         </header>
-    
-            <!-- /banner -->
-
+        <!-- /banner -->
         <!-- /header -->
-
-    <!-- main -->
-    <main>
+        <!-- main -->
+        <main>
             <!-- plan section -->
-
             <!-- plan month-year -->
             <section class="plan-section">
                 <div class="plan-section-container">
-                    <div class="plan-title">
-                        <h2>Trova il piano Dropbox Business che fa per te</h2>
+                    <div class="row">
+                        <div class="plan-title">
+                            <h2>Trova il piano Dropbox Business che fa per te</h2>
+                        </div>
+                        <div class="month-year-checkbox">
+                            <input type="radio" name="plan" id="plan" />
+                            <label for="plan">Fatturazione mensile</label>
+                            <input type="radio" name="plan" id="plan" />
+                            <label for="plan">Fatturazione annuale</label>
+                        </div>
                     </div>
 
-                    <div class="month-year-checkbox">
-                        <input type="radio" name="plan" id="plan">
-                        <label for="plan">Fatturazione mensile</label>
-                        <input type="radio" name="plan" id="plan">
-                        <label for="plan">Fatturazione annuale</label>
+                    <div class="clearfix">
+                        <!-- first col -->
+                        <div class="col">
+                            <div class="title"><i class="far fa-user"></i> Singolo</div>
+                            <div class="padding">
+                                <h3 class="offer-type mb-10">Professional</h3>
+                                <h4 class="-price-text mb-10">19.99 €</h4>
+                                <p class="text-offer cadence mb-45">/mese</p>
+                                <p class="text-offer mb-20"><i class="far fa-user"></i> 1 utente</p>
+                                <p class="text-offer mb-20"><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</p>
+                                <p class="text-offer mb-45"><i class="fas fa-pen"></i> Funzioni di produttivita premium e condivisione file semplice e sicura</p>
+                                <button>Prova gratis per 30 giorni</button>
+                                <div class="buy-now text-offer mb-20">
+                                    <span class= "or-span">oppure</span> <a href="" class="buy-now-blue">acquista ora</a>
+                                </div>
+                                <hr class="mb-45">
+                                <h4 class="mb-20">Punti salienti del piano</h4>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Invia file fino a 100 GB con Dropbox Transfert</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Cartelle offline su dispositivi mobili</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Pulizia remota dell'account</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Filigrana documento</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Assistenza prioritaria via email e chat</p>
+                            </div>  
+                        </div>
+                        <!-- /first col -->
+
+                        <!-- second col -->
+                        <div class="col">
+                            <div class="title"><i class="far fa-building"></i> Team</div>
+                            <div class="padding">
+                                <h3 class="offer-type mb-10">Standard</h3>
+                                <h4 class="-price-text mb-10">19.99 €</h4>
+                                <p class="text-offer cadence mb-45">/utente /mese, a partire da 3 utenti</p>
+                                <p class="text-offer mb-20"><i class="fas fa-user-plus"></i> 1 utente</p>
+                                <p class="text-offer mb-20"><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</p>
+                                <p class="text-offer mb-45"><i class="fas fa-smile"></i> Funzioni di produttivita premium e condivisione file semplice e sicura</p>
+                                <button>Prova gratis per 30 giorni</button>
+                                <div class="buy-now text-offer mb-20">
+                                    <span class= "or-span">oppure</span> <a href="" class="buy-now-blue">acquista ora</a>
+                                </div>
+                                <hr class="mb-45">
+                                <h4 class="mb-20">Punti salienti del piano</h4>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Invia file fino a 100 GB con Dropbox Transfert</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Cartelle offline su dispositivi mobili</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Pulizia remota dell'account</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Filigrana documento</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Assistenza prioritaria via email e chat</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Assistenza prioritaria via email e chat</p>
+                            </div>  
+                        </div>
+                        <!-- /second col -->
+
+                        <!-- third col -->
+                        <div class="col">
+                            <div class="title"><i class="far fa-building"></i> Team</div>
+                            <div class="padding">
+                                <h3 class="offer-type mb-10">Advance</h3>
+                                <h4 class="-price-text mb-10">19.99 €</h4>
+                                <p class="text-offer cadence mb-45">/utente /mese, a partire da 3 utenti</p>
+                                <p class="text-offer mb-20"><i class="fas fa-user-plus"></i> 1 utente</p>
+                                <p class="text-offer mb-20"><i class="far fa-folder"></i> 3 TB di spazio di archiviazione sicuro</p>
+                                <p class="text-offer mb-45"><i class="fas fa-pen"></i> Funzioni di produttivita premium e condivisione file semplice e sicura</p>
+                                <button>Prova gratis per 30 giorni</button>
+                                <div class="buy-now text-offer mb-20">
+                                    <span class= "or-span">oppure</span> <a href="" class="buy-now-blue">acquista ora</a>
+                                </div>
+                                <hr class="mb-45">
+                                <h4 class="mb-20">Punti salienti del piano</h4>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Invia file fino a 100 GB con Dropbox Transfert</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Cartelle offline su dispositivi mobili</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Pulizia remota dell'account</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Filigrana documento</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Assistenza prioritaria via email e chat</p>
+                                <p class="text-offer mb-20"><i class="fas fa-check check-blue"></i> Assistenza prioritaria via email e chat</p>
+                            </div>  
+                        </div>
+                        <!-- /third col -->
                     </div>
-            <!-- /plan month-year -->
-
-            <!-- offer table -->
-            <div class="col col-offer-professional">
-            </div>
-
-            <div class=" col col-offer-standard">
-            </div>
-
-            <div class="col col-offer-advanced">
-            </div>
-
-
-
-
-
-            <!-- /offer table -->
-
-
-
-                </div>
-            </section>
+                    <!-- /plan month-year -->
+                    <!-- /offer table -->
+                </section>
             <!-- /plan section -->
-
             <!-- partner-dropbox section -->
-            <section class="partner-section">
-
-            </section>
+            <section class="partner-section"></section>
             <!-- /partner-dropbox section -->
-
             <!-- operations dropbox-business section -->
-            <section class="operations-business-section">
-
-            </section>
+            <section class="operations-business-section"></section>
             <!-- /operations dropbox-business section -->
-
             <!-- title team section -->
-            <section class="title-team-section">
-
-            </section>
+            <section class="title-team-section"></section>
             <!-- /title team section -->
-
             <!-- clients section -->
-            <section class="clients-section">
-
-            </section>
+            <section class="clients-section"></section>
             <!-- /clients section -->
-
             <!-- try-free section -->
-            <section class="try-free-section">
-
-            </section>
+            <section class="try-free-section"></section>
             <!-- /try-free section -->
-
             <!-- faq section -->
             <section class="faq-section"></section>
             <!-- /faq section -->
-    </main>
-    <!-- /main -->
-
-    <!-- footer -->
-    <footer>
-
-    </footer>
+        </main>
+        <!-- /main -->
+        <!-- footer -->
+        <footer></footer>
         <!-- /footer -->
-    
-    
     </body>
-    </html>
-    
-    
-    
-
-   
+</html>
