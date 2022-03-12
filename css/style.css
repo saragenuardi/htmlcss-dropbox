@@ -334,7 +334,39 @@ img {
     width: 60%;
     height: 1200px;
     margin: auto;
-    background-color: powderblue; 
+}
+
+.operations-card-section-title{
+    font-size: 1.8em;
+}
+
+.cards-img-text-container{
+    width: calc(100% / 3);
+    float: left;
+}
+
+.cards-img-text-container > img{
+    width: 80%;
+}
+
+.cards-img-text-container > h5{
+    font-size: 25px;
+    margin-bottom: 0.8em;
+}
+
+.cards-img-text-container > p{
+    width: 70%;
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+.first-row-operations {
+    margin-top: 50px;
+}
+
+.second-row-operations {
+    display: inline-block;
+    margin-top: 100px;
 }
 
 /* TITLE TEAM SECTION  */
