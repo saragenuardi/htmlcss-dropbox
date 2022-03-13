@@ -26,6 +26,11 @@ img {
     float: left;
 }
 
+.float-d {
+    float: right;
+}
+
+
 .t-d {
     text-decoration: none;
 }
@@ -48,6 +53,17 @@ img {
     height: 30%;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-45 {
+    margin-bottom: 45px;
+}
 /* MENU */
 .menu {
     width: 100%;
@@ -236,18 +252,6 @@ img {
 
 .col hr {
     width: 20%;
-}
-
-.mb-10 {
-    margin-bottom: 10px;
-}
-
-.mb-20 {
-    margin-bottom: 20px;
-}
-
-.mb-45 {
-    margin-bottom: 45px;
 }
 
 .check-blue {
@@ -551,11 +555,43 @@ img {
 }
 
 /* TRY FREE SECTION */
+.container-try {
+    width: 60%;
+    margin: auto;
+}
+
 .try-free-section{
     width: 100%;
-    height: 45vh;
-    background-color: maroon;
+    height: 400px;
+    background-color: #b4d0e7;
     position: relative;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.middle-sx {
+    width: 50%;
+}
+
+.middle-sx h2{
+    font-size: 2.5em;
+    color: #61082b;
+}
+
+.middle-dx a{
+    font-weight: bold;
+    color: black;
+    padding: .5em 3em;
+    background-color: white;
+}
+
+.middle-dx a:hover {
+    background-color: #f1f1f1;
 }
 
 /* FAQ SECTION */
