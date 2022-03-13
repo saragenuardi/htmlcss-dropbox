@@ -64,6 +64,14 @@ img {
 .mb-45 {
     margin-bottom: 45px;
 }
+
+.btn-try {
+    margin-right: 2em;
+}
+
+.mt {
+    margin-top: 100px;
+}
 /* MENU */
 .menu {
     width: 100%;
@@ -596,11 +604,51 @@ img {
 
 /* FAQ SECTION */
 .faq-section {
-    width: 70%;
+    width: 60%;
     margin: auto;
-    height: 85vh; 
-    background-color: cyan;
-    position: relative;
+    padding: 7em 0;
+}
+
+.faq-section h4 {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.faq-hover {
+    display: none;
+    padding-right: 10em;
+    margin-top: 1em;
+    color: lightgrey;
+}
+
+.question:hover .faq-hover {
+    display: inline-block;
+}
+
+.question:hover .fas-def {
+    display: none;
+}
+
+.question:hover .fas-hover {
+    display: inline;
+}
+
+.fas-def {
+    display: inline;
+}
+
+.fas-hover {
+    display: none;
+}
+
+.question {
+    padding: 2em;
+    padding-left: 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.border-faq{
+    border-top: 1px solid lightgrey;
 }
 
 /* FOOTER */
