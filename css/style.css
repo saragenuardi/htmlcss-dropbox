@@ -82,15 +82,16 @@ img {
     z-index: 1; 
 }
 
-.menu-text > a{
+.menu-text > a {
     padding: 0em 1em 1em 1.5em;
     color: black;
     vertical-align: middle;
 }
 
-.menu-text > a:hover{
+.menu-text > a:hover {
     border-bottom: 2px solid black;
 }
+
 
 /* menu left */
 .dropbox-logo {
@@ -102,7 +103,7 @@ img {
 }
 
 /* menu right */
-.menu-right{
+.menu-right {
     float: right;
 }
 
@@ -182,7 +183,6 @@ img {
     width: 70%;
     background-color: #FFFFFF;
     margin: auto;
-    margin-right: 200px;
 }
 
 .plan-title > h2 {
@@ -191,7 +191,29 @@ img {
     font-weight:bold;
 }
 
+.row {
+    margin: 30px;
+}
+
 /* PLAN MONTH-YEAR SECTION */
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+
+    border: 2px solid #999;
+}
+
+input[type="radio"]:checked {
+    border: 4px solid blue;
+}
+
+
 
  .month-year-checkbox{
     margin-top: 3em;
@@ -212,14 +234,13 @@ img {
 
 .col {
     float: left;
-    width: calc(100% / 3 - 90px);
+    width: calc(100% / 3 - 30px);
     border: 2px solid lightgray;
     margin-left: 30px;
     height: 1000px;
 }
 
 .col-bottom {
-    width: 84%;
     margin-left:30px;
     margin-top: 50px;
 }
